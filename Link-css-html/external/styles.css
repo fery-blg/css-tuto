@@ -1,0 +1,19 @@
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: deeppink;
+    text-align: center;
+}
+
+p {
+    color: rgb(26, 24, 182);
+    text-align: center;
+}
