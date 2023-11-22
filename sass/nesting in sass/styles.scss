@@ -1,0 +1,30 @@
+@import"_variables";
+.header{
+    // CSS for elements in the header class
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // CSS for buttons inside the header class
+    button{
+        background-color: $primaryColor;
+        text-align: center;
+        &:hover{
+            background:$hoverColor;
+        }
+    }
+}
+//*including the mixin code //
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+// Including the mixin in code
+.flexy_one{
+    @include flexCenter(column);
+}
+.flexy_two{
+    @include flexCenter(row);
+}

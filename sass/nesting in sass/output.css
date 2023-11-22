@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  background-color: rgb(30, 17, 179);
+  text-align: center;
+}
+.header button:hover {
+  background: rgb(48, 202, 219);
+}
+
+.flexy_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexy_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=output.css.map */
