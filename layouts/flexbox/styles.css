@@ -1,0 +1,107 @@
+.flexy {
+    display: flex;
+    border: solid 4px #57001b;
+}
+
+.item {
+    width: 15%;
+    height: 20vh;
+    background-color: rgb(116, 8, 116);
+    margin: 8px;
+    text-align: center;
+}
+
+.grandpa {
+    display: flex;
+    justify-content: center;
+    border: solid 2px#57001b;
+
+}
+
+.flexy1 {
+    display: flex;
+    border: solid 4px #57001b;
+    flex-direction: column;
+}
+
+.flexy2 {
+    display: flex;
+    border: solid 4px #57001b;
+    flex-direction: row-reverse;
+}
+
+.flexy3 {
+    display: flex;
+    border: solid 4px #57001b;
+    flex-direction: column-reverse;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: -webkit-sticky;/* Safari */
+    position: sticky;
+    top: 2px;   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #160303;
+}
+
+li a.active {
+    color: rgb(31, 5, 5);
+    background-color: #1d04aa;
+   
+}
+.flexy-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.space-between{
+    justify-content: space-between;
+    display: flex;
+}
+.center{
+    justify-content: center;
+    display: flex;
+}
+.space-around{
+    justify-content: space-around;
+    display: flex;
+}
+.no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.child{
+    width: 40%;
+    height: 20vh;
+    background-color: rgb(116, 8, 116);
+    margin: 8px;
+    text-align: center;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
